@@ -23,5 +23,5 @@ while game_is_on:
     time.sleep(0.1)
     snake.move()
     if snake.head.distance(food) < 15:
-        print("got it")
+        food.refresh()
 screen.exitonclick()
